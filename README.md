@@ -3,7 +3,7 @@
 <b>Kai.</b> is a noob developer who only knows HTML and 1% JavaScript. He calls himself "Kai. The Noob Developer" as it fits his skill lmao.
 
 <h3 align="center">Live Discord Status</h3>
-<img src="https://discord.c99.nl/widget/theme-2/714086889878978582.png">
+<img src="https://discord.c99.nl/widget/theme-2/714086889878978582.png" align="center">
 <h3 align="center">Statistics</h3>
 <div align="center"><img src="https://github-profile-trophy.vercel.app/?username=JavaScriptpy&theme=dracula&count_private=true"></div>
 <img align="left" src="https://github-readme-stats.vercel.app/api?username=JavaScriptpy&show_icons=true&hide_border=true&theme=tokyonight"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavaScriptpy&theme=tokyonight">
