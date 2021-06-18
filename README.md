@@ -1,6 +1,6 @@
 ![](https://komarev.com/ghpvc/?username=JavaScriptpy&style=flat-square&color=red&label=PROFILE+VIEWS) <a href="https://discord.com/users/714086889878978582"><img src="https://discord.com/assets/145dc557845548a36a82337912ca3ac5.svg" align="right" width="30" height="30"></a> <a href="https://github.com/JavaScriptpy"><img src="https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png" align="right" width="30" height="30"></a>
 <h3 align="center">About</h3>
-<p align="center">Hi! I'm Kyle <i>(known as Kai. on Discord)</i>, I'm a noob developer who only knows HTML. Coding is actually not the thing that I'm studying or work, it's just my hobby in my freetime. I study Meteorology on my own because it's mt favorite. I'm also a CODM player.</p>
+<p align="center">Hi! I'm Kyle and I love Meteorology.</p>
 
 <h3 align="center">Live Discord Status</h3>
 <div align="center">
