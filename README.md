@@ -8,4 +8,4 @@
  </div>
 <h3 align="center">Statistics</h3>
 <div align="center"><img src="https://github-profile-trophy.vercel.app/?username=JavaScriptpy&theme=dracula&count_private=true"></div>
-<img align="left" src="https://github-readme-stats.vercel.app/api?username=JavaScriptpy&show_icons=true&hide_border=true&theme=tokyonight"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs/?username=JavaScriptpy&theme=tokyonight">
+<img align="left" src="https://github-readme-stats.vercel.app/api?username=JavaScriptpy&theme=midnight-purple&show_icons=true"><img align="right" src="https://github-readme-stats.vercel.app/api/top-langs?username=JavaScriptpy&theme=midnight-purple&show_icons=true">
