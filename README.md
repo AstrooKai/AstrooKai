@@ -6,4 +6,4 @@
   <img src="https://discord.c99.nl/widget/theme-2/714086889878978582.png" alt="status">
  </div>
 <h3 align="center">My GitHub Metrics</h3>
-![metrics](https://raw.githubusercontent.com/AstrooKai/AstrooKai/main/github-metrics.svg)
+![Metrics](/github-metrics.svg)
