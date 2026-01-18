@@ -29,7 +29,7 @@ jobs:
           plugin_achievements_threshold: "C"
 
           plugin_calendar: "yes"
-          plugin_calendar_limit: 1
+          plugin_calendar_limit: 4
 
           plugin_habits: "yes"
           plugin_habits_charts_type: "classic"
