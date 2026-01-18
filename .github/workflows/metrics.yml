@@ -17,6 +17,9 @@ jobs:
           # Your GitHub token
           # The following scopes are required:
           #  - public_access (default scope)
+          #  - read:user
+          #  - read:org
+          #  - repo
           # The following additional scopes may be required:
           #  - read:org      (for organization related metrics)
           #  - read:user     (for user related data)
@@ -28,28 +31,28 @@ jobs:
           user: AstrooKai
           template: classic
           base: header, activity, community, repositories, metadata
-          config_timezone: Asia/Manila
+          config_timezone: Asia/Taipei
           plugin_achievements: yes
           plugin_achievements_display: detailed
           plugin_achievements_secrets: yes
           plugin_achievements_threshold: C
           plugin_calendar: yes
-          plugin_calendar_limit: 2
+          plugin_calendar_limit: 1
           plugin_habits: yes
           plugin_habits_charts_type: classic
           plugin_habits_days: 14
           plugin_habits_facts: yes
           plugin_habits_from: 200
-          plugin_habits_languages_limit: 10
+          plugin_habits_languages_limit: 8
           plugin_habits_languages_threshold: 0%
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: full-year
           plugin_languages: yes
           plugin_languages_analysis_timeout: 15
           plugin_languages_analysis_timeout_repositories: 7.5
           plugin_languages_categories: markup, programming
           plugin_languages_colors: github
-          plugin_languages_details: percentage
-          plugin_languages_limit: 10
-          plugin_languages_other: yes
+          plugin_languages_limit: 8
           plugin_languages_recent_categories: markup, programming
           plugin_languages_recent_days: 14
           plugin_languages_recent_load: 300
@@ -60,6 +63,42 @@ jobs:
           plugin_lines_repositories_limit: 4
           plugin_lines_sections: base
           plugin_notable: yes
-          plugin_notable_from: all
-          plugin_notable_repositories: yes
+          plugin_notable_from: organization
           plugin_notable_types: commit
+          plugin_reactions: yes
+          plugin_reactions_display: absolute
+          plugin_reactions_limit: 200
+          plugin_reactions_limit_discussions: 100
+          plugin_reactions_limit_discussions_comments: 100
+          plugin_reactions_limit_issues: 100
+          plugin_repositories: yes
+          plugin_repositories_order: featured, pinned, starred, random
+          plugin_skyline: yes
+          plugin_skyline_frames: 60
+          plugin_skyline_quality: 0.5
+          plugin_skyline_settings: {
+  "url": "https://skyline.github.com/${login}/${year}",
+  "ready": "[...document.querySelectorAll('span')].map(span => span.innerText).includes('Share on Twitter')",
+  "wait": 1,
+  "hide": "button, footer, a"
+}
+
+          plugin_skyline_year: current-year
+          plugin_sponsors: yes
+          plugin_sponsors_sections: goal, list, about
+          plugin_sponsors_size: 24
+          plugin_sponsors_title: Sponsor Me!
+          plugin_sponsorships: yes
+          plugin_sponsorships_sections: amount, sponsorships
+          plugin_sponsorships_size: 24
+          plugin_stargazers: yes
+          plugin_stargazers_charts: yes
+          plugin_stargazers_charts_type: classic
+          plugin_stargazers_days: 14
+          plugin_stars: yes
+          plugin_stars_limit: 4
+          plugin_topics: yes
+          plugin_topics_limit: 15
+          plugin_topics_mode: starred
+          plugin_topics_sort: stars
+          plugin_traffic: yes
